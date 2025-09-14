@@ -70,20 +70,18 @@ body {
 #detail .content {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     width: 100%;
+    justify-content: center;
+    column-gap: 60px;
 }
 
 #detail .content img {
-    box-sizing: content-box;
-    max-width: 270px;
-    height: fit-content;
-    max-height: 100%;
-    margin-right: 60px;
-    aspect-ratio: 1;
+    width: 270px;
 }
 
-#detail .text {
-    width: 100%;
+#detail .content .text {
+    width: 270px;
 }
 
 #detail .text .title {
